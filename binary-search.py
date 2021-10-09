@@ -3,11 +3,12 @@
 # O(n) (n is the number of elements of the variable), which takes more computation
 
 def binarySearch(array,val):
+     
     array.sort()                                          #the item to be searched using binary should always be sorted
     low = 0                                               #starting index, always 0
     high = len(array)-1                                   #ending index, len - 1
     while (low<=high):                                    #as long as the low index doesnt exceed high index
-        mid = (low+high)/2                                #calc mid to split the list in a way
+        mid = (low+high)//2                                #calc mid to split the list in a way
         if (array[mid]==val):                             #if the middle value is the value
             return mid                                    #just return the middle index number
         elif (array[mid]<val):
@@ -20,4 +21,4 @@ def binarySearch(array,val):
 
 thelist = [1,2,3,4,5]
 value = 3
-binarySearch(thelist,value)
+print(binarySearch(thelist,value))
