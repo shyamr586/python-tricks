@@ -8,9 +8,12 @@
 # 1) add a value to a non existant key as it would create a key if it is non existant
 # 2) make value a list/ set type easily
 
+#the defaultdict can easily set new keys and add values to a key if they are a set or list, depending on what they
+#are initialized as.
+
 from collections import defaultdict
 
-d = defaultdict(list)
+d = defaultdict(list)       #says that we need an object d with list as the vause for keys
 
 print (d)
 print (d["a"])

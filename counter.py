@@ -1,4 +1,6 @@
 from collections import Counter
+#this program is used to count number of times an input occurs in a collection or get the most common occuring
+#elements
 
 word = "Hello World!"                   #can be any iterable like a list also
 

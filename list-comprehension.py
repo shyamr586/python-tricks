@@ -3,7 +3,7 @@
 
 array = [1,-1,-10,0,5,7,20,-100]
 
-filtered = [n for n in array if n>0]
+filtered = [n for n in array if n!=0]
 print (filtered)
 
 # one of the problems with this is that if the filtered list is too big, then the output wouldn't show 
