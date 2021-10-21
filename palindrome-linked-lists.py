@@ -3,6 +3,8 @@
 #     def __init__(self, val=0, next=None):
 #         self.val = val
 #         self.next = next
+
+#the solution may not be the best since i did not know time and space complexities at this time
 class Solution:
     def isPalindrome(self, head) -> bool:
         
