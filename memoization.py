@@ -11,7 +11,7 @@ from functools import lru_cache
 def fib(pos):                           #searching for a position in the 1000's takes a long time, compared to
                                         #using memoization techniques, which coputes faster.
     if (pos==0 or pos==1):
-        return pos                      #the first position, 0 has value 0 and same for second (1)
+        return pos                      #the first position, 0 has value 0 and same for second (1), depends actually
     elif (pos==2):
         return 2
     else:

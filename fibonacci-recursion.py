@@ -5,10 +5,8 @@
 #this fibonacci series is done using recursion to make code look cleaner.
 
 def fib(pos):
-    if (pos==0 or pos==1):
-        return pos                      #the first position, 0 has value 0 and same for second (1)
-    elif (pos==2):
-        return 2
+    if (pos==2 or pos==1):
+        return 1                      #the first position, 0 has value 0 and same for second (1)
     else:
         return fib(pos-1)+fib(pos-2)    #like i said, sum of last two terms
     
